@@ -1,0 +1,13 @@
+{
+  "name": "type-script",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "babel --extensions \".ts\" index.ts -d dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/cli": "^7.14.5",
+    "@babel/preset-env": "^7.14.7",
+    "@babel/preset-typescript": "^7.14.5"
+  }
+}
